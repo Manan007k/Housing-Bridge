@@ -1,69 +1,76 @@
-# Welcome to your Lovable project
+# Housing Bridge
 
-## Project info
+A modern web application for connecting housing providers with potential tenants.
 
-**URL**: https://lovable.dev/projects/1a7bb1c7-0071-48bc-9496-bf79e5b27673
+## Project Overview
 
-## How can I edit this code?
+Housing Bridge is a platform designed to streamline the housing search and rental process, making it easier for both property owners and tenants to connect.
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1a7bb1c7-0071-48bc-9496-bf79e5b27673) and start prompting.
+- Node.js & npm - [Install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd housing-bridge
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Technologies Used
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project is built with modern web technologies:
 
-**Use GitHub Codespaces**
+- Vite - Next Generation Frontend Tooling
+- TypeScript - JavaScript with syntax for types
+- React - A JavaScript library for building user interfaces
+- shadcn-ui - Beautifully designed components
+- Tailwind CSS - A utility-first CSS framework
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Development
 
-## What technologies are used for this project?
+You can edit the code in several ways:
 
-This project is built with .
+1. **Using your preferred IDE**
+   - Clone the repository
+   - Make your changes locally
+   - Push changes to the repository
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. **Using GitHub**
+   - Navigate to the desired file(s)
+   - Click the "Edit" button (pencil icon)
+   - Make your changes and commit
 
-## How can I deploy this project?
+3. **Using GitHub Codespaces**
+   - Click on the "Code" button
+   - Select "Codespaces"
+   - Create a new codespace
+   - Edit files directly in the browser
 
-Simply open [Lovable](https://lovable.dev/projects/1a7bb1c7-0071-48bc-9496-bf79e5b27673) and click on Share -> Publish.
+## Deployment
 
-## I want to use a custom domain - is that possible?
+The project can be deployed to various platforms including:
+- Netlify
+- Vercel
+- GitHub Pages
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Choose your preferred hosting platform and follow their deployment guidelines.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
